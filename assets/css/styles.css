@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 56px;
+}
+
 h1,
 h2,
 h3,
@@ -79,10 +84,12 @@ header.masthead h2 {
         padding-top: calc(2rem + 106px);
         padding-bottom: 3rem;
     }
+
     header.masthead h1 {
         font-size: 4.75em;
         line-height: 4rem;
     }
+
     header.masthead h2 {
         font-size: 1.75em;
     }
@@ -122,10 +129,7 @@ header.masthead h2 {
     opacity: 1;
 }
 
-.portfolio
-    .portfolio-item
-    .portfolio-item-caption
-    .portfolio-item-caption-content {
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
     font-size: 1.5rem;
 }
 
@@ -133,6 +137,7 @@ header.masthead h2 {
     .portfolio {
         margin-bottom: -30px;
     }
+
     .portfolio .portfolio-item {
         margin-bottom: 30px;
     }
@@ -168,6 +173,7 @@ header.masthead h2 {
         padding: 3rem;
         margin: 3rem calc(3rem - 8px);
     }
+
     .portfolio-modal .portfolio-modal-dialog h2 {
         font-size: 3rem;
     }
